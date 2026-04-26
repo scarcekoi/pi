@@ -1,0 +1,25 @@
+{
+  "name": "catppuccin",
+  "description": "Soothing pastel theme for Pi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scarcekoi/pi.git"
+  },
+  "homepage": "https://github.com/catppuccin",
+  "keywords": [
+    "catppuccin",
+    "theme",
+    "pi-package"
+  ],
+  "files": [
+    "themes",
+    "assets"
+  ],
+  "pi": {
+    "themes": [
+      "./themes"
+    ],
+    "image": "https://raw.githubusercontent.com/scarcekoi/pi/main/assets/preview.webp"
+  }
+}
