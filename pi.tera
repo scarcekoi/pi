@@ -1,0 +1,90 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+---
+{
+  "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "catppuccin-{{ flavor.identifier }}-{{ accent }}",
+  "vars": {
+    "bg": "{{ base.hex }}",
+    "panel": "{{ mantle.hex }}",
+    "panelAlt": "{{ crust.hex }}",
+    "selected": "{{ surface0.hex }}",
+    "border": "{{ surface2.hex }}",
+    "accent": "{{ flavor.colors[accent].hex }}",
+    "cyan": "{{ teal.hex }}",
+    "green": "{{ green.hex }}",
+    "red": "{{ red.hex }}",
+    "yellow": "{{ yellow.hex }}",
+    "orange": "{{ peach.hex }}",
+    "purple": "{{ mauve.hex }}",
+    "text": "{{ text.hex }}",
+    "muted": "{{ subtext0.hex }}",
+    "dim": "{{ overlay1.hex }}",
+    "toolSuccessBg": "{{ green | mix(color=base, amount=0.25) | hex }}",
+    "toolErrorBg": "{{ red | mix(color=base, amount=0.25) | hex }}"
+  },
+  "colors": {
+    "accent": "accent",
+    "border": "border",
+    "borderAccent": "cyan",
+    "borderMuted": "dim",
+    "success": "green",
+    "error": "red",
+    "warning": "yellow",
+    "muted": "muted",
+    "dim": "dim",
+    "text": "",
+    "thinkingText": "muted",
+    "selectedBg": "selected",
+    "userMessageBg": "panel",
+    "userMessageText": "",
+    "customMessageBg": "panelAlt",
+    "customMessageText": "",
+    "customMessageLabel": "purple",
+    "toolPendingBg": "panelAlt",
+    "toolSuccessBg": "toolSuccessBg",
+    "toolErrorBg": "toolErrorBg",
+    "toolTitle": "accent",
+    "toolOutput": "muted",
+    "mdHeading": "orange",
+    "mdLink": "accent",
+    "mdLinkUrl": "muted",
+    "mdCode": "cyan",
+    "mdCodeBlock": "green",
+    "mdCodeBlockBorder": "border",
+    "mdQuote": "muted",
+    "mdQuoteBorder": "border",
+    "mdHr": "border",
+    "mdListBullet": "purple",
+    "toolDiffAdded": "green",
+    "toolDiffRemoved": "red",
+    "toolDiffContext": "muted",
+    "syntaxComment": "dim",
+    "syntaxKeyword": "purple",
+    "syntaxFunction": "accent",
+    "syntaxVariable": "red",
+    "syntaxString": "green",
+    "syntaxNumber": "orange",
+    "syntaxType": "yellow",
+    "syntaxOperator": "cyan",
+    "syntaxPunctuation": "text",
+    "thinkingOff": "dim",
+    "thinkingMinimal": "border",
+    "thinkingLow": "accent",
+    "thinkingMedium": "cyan",
+    "thinkingHigh": "purple",
+    "thinkingXhigh": "red",
+    "bashMode": "green"
+  },
+  "export": {
+    "pageBg": "{{ base.hex }}",
+    "cardBg": "{{ mantle.hex }}",
+    "infoBg": "{{ surface2.hex }}"
+  }
+}
