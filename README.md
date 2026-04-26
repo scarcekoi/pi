@@ -44,10 +44,10 @@
 4. Select the flavor and accent combination of your choice.
 5. Enjoy!
 
-### Recommended
+### Recommended Installations
 
 > [!NOTE]
-> This method installs all available flavors and accents, unlike the [manual method](#manual-installation) which installs one at a time.
+> This method installs all flavors and accents, unlike the [manual method](#manual-installation) which installs one at a time.
 
 1. Install via the package manager: `pi install git:https://github.com/scarcekoi/pi`
 2. Open Pi and go to **Settings** > **Theme**.
