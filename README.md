@@ -44,7 +44,7 @@
 4. Select the flavor and accent combination of your choice.
 5. Enjoy!
 
-### Recommended Installations
+### Recommended Installation
 
 > [!NOTE]
 > This method installs all flavors and accents, unlike the [manual method](#manual-installation) which installs one at a time.
