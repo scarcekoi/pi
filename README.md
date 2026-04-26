@@ -40,17 +40,19 @@
 
 1. Download the flavor and accent combination of your choice from [themes](themes).
 2. Place the downloaded file in `~/.pi/agent/themes`.
-3. Run Pi and go to **Settings** > **Theme** and select your flavor and accent combination of choice.
-4. Enjoy!
+3. Open Pi and go to **Settings** > **Theme**.
+4. Select the flavor and accent combination of your choice.
+5. Enjoy!
 
 ### Recommended
 
 > [!NOTE]
-> This does install every flavor and accent combination instead of just one like the [manual installation](#manual-installation).
+> This method installs all available flavors and accents, unlike the [manual method](#manual-installation) which installs one at a time.
 
-1. Run `pi install git:https://github.com/scarcekoi/pi`
-2. Run Pi and go to **Settings** > **Theme** and select your flavor and accent combination of choice.
-3. Enjoy!
+1. Install via the package manager: `pi install git:https://github.com/scarcekoi/pi`
+2. Open Pi and go to **Settings** > **Theme**.
+3. Select the flavor and accent combination of your choice.
+4. Enjoy!
 
 ## 💝 Thanks to
 
