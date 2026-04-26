@@ -36,9 +36,6 @@
 
 ## Usage
 
-> [!NOTE]
-> Latte is only available if you switch to light mode in the settings.
-
 1. Download the flavor and accent combination of your choice from [themes](themes).
 2. Place the downloaded file in `~/.pi/agent/themes`.
 3. Enjoy!
